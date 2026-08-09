@@ -1,0 +1,52 @@
+backend:
+  name: github
+  repo: your-github-username/your-repo-name # YOU WILL NEED TO CHANGE THIS
+  branch: main
+  # base_url: https://auth.yourdomain.com # Cloudflare OAuth worker URL goes here eventually
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "galleries"
+    label: "Service Galleries"
+    files:
+      - label: "Gallery Photos"
+        name: "galleries_json"
+        file: "assets/galleries.json"
+        fields:
+          - label: "Υδραυλικά Images"
+            name: "ydraulika"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "Ανακαίνιση Images"
+            name: "anakainisi"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "Πλακάκια Images"
+            name: "plakakia"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "Πισίνες Images"
+            name: "pisines"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "Laminate Images"
+            name: "laminate"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "ALFA BLOCK Images"
+            name: "alfablock"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}
+          - label: "Γυψοσανίδες Images"
+            name: "gipsosanides"
+            widget: "list"
+            required: false
+            field: {label: "Image", name: "image", widget: "image"}

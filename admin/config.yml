@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: your-github-username/your-repo-name # YOU WILL NEED TO CHANGE THIS
+  repo: Alex-Bini/binioris-site # YOU WILL NEED TO CHANGE THIS
   branch: main
   # base_url: https://auth.yourdomain.com # Cloudflare OAuth worker URL goes here eventually
 
